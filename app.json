@@ -16,17 +16,16 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.todoapp.reactnative",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.todoapp.reactnative",
+      "versionCode": 1
     }
   }
 }
